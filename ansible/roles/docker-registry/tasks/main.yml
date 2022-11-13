@@ -4,6 +4,7 @@
   docker_login:
     username: sarahch
     password: dockerhub
+    email: sarah.chelli@esprit.tn
 - name: Push to docker hub
   docker_image:
     name: lc
